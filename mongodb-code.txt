@@ -1,0 +1,4 @@
+
+/--------------- get only limited latest data from nongodb  ------------------/
+
+const latestReviews = await review.find().sort({ date: -1 }).limit(10);

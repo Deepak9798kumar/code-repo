@@ -1,0 +1,23 @@
+/------------------------ CSS Code -------------------/
+
+
+// scrollbar effect run on full body scrollbar
+
+::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 10px;  
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:gray; 
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+// scrollbar effect run on specific container scrollbar 
+
+  .text-container::-webkit-scrollbar {
+    width: 2px;
+  }
